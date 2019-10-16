@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"github.com/golang/snappy"
-	kafka "github.com/segmentio/kafka-go"
+	kafka "github.com/wekb/kafka-go"
 )
 
 func init() {
