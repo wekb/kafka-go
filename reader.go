@@ -896,6 +896,9 @@ func (r *Reader) Lag() int64 {
 	return lag
 }
 
+// LagCheck is a marker to prevent use of the segmentio version (temporarily)
+func (r *Reader) LagCheck() {}
+
 // SetOffset changes the offset from which the next batch of messages will be
 // read. The method fails with io.ErrClosedPipe if the reader has already been closed.
 //
