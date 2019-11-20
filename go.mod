@@ -9,5 +9,5 @@ require (
 	github.com/pierrec/lz4 v2.0.5+incompatible
 	github.com/segmentio/kafka-go v0.3.4
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c
-	golang.org/x/net v0.0.0-20190404232315-eb5bcb51f2a3
+	golang.org/x/net v0.0.0-20190620200207-3b0461eec859
 )
